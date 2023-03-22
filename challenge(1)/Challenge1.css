@@ -1,0 +1,54 @@
+body {
+    background: #c5c5c5;
+}
+
+section {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 250px;
+    border: 1px solid inherit;
+    border-radius: 2%;
+    border-top: 10px solid #8132a3;
+}
+img {
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #eeeeee;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.main .photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.main .details {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+
+}
+p{
+    margin-top: 1px;
+    font-size: 14px;;
+    font-weight: 500;
+}
+label{
+    font-weight: bold;
+    font-size: 12px;
+}
